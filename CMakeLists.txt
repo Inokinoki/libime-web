@@ -10,7 +10,7 @@ find_package(CutelystQt5 REQUIRED)
 
 # Auto generate moc files
 set(CMAKE_AUTOMOC ON)
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_definitions(-DQT_NO_KEYWORDS)
 
